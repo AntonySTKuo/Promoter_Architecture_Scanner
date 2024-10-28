@@ -1,0 +1,50 @@
+Species,Species_abb,Lineage,Genome accession,GC content (%),PubMed,Detection method,WD < 0.5,Representative
+Thermotoga maritima MSB8,Th.ma,Thermotogota,CP004077.1,0.462487404,23637642,dRNA-seq,,*
+Anabaena sp. PCC7120,An.sp,Cyanobacteria,NC_003272.1,0.413475473,22135468,dRNA-seq,,*
+Synechococcus elongatus UTEX 2973,Sy.el,Cyanobacteria,CP006471.1,0.554677749,30127850,dRNA-seq,,
+Synechocystis sp. PCC 6803,Sy.sp,Cyanobacteria,NC_000911.1,0.477202551,21245330,dRNA-seq,,
+Nanosynbacter lyticus TM7x,Na.ly,CPR,NZ_CP007496.1,0.444532843,35975994,RNA-seq + manual annotation,,
+Streptomyces coelicolor A3(2),St.co,Actinobacteria,NC_003888.3,0.721186611,27251447,dRNA-seq,,*
+Corynebacterium diphtheriae NCTC 13129,Co.di,Actinobacteria,NC_002935.2,0.534785133,29370758,dRNA-seq,,
+Corynebacterium glutamicum ATCC 13032,Co.gl,Actinobacteria,BX927147.1,0.538417672,24341750,dRNA-seq,,
+Mycolicibacterium smegmatis MC2 155,My.sm,Actinobacteria,NC_008596.1,0.674028066,30984135,dRNA-seq,,
+Mycobacterium tuberculosis H37Rv,My.tu,Actinobacteria,AL123456.3,0.656146663,24268774,dRNA-seq,,
+Phytoplasma sp. OY-M,Ph.sp,Mycoplasmatota,AP006628.2,0.277599406,29039971,dRNA-seq,*,
+Mycoplasma pneumoniae M129,My.pn,Mycoplasmatota,NC_000912.1,0.400080108,22617959,RNA-seq + manual annotation,,
+Clostridioides difficile 630,Cl.di,Firmicutes,NC_009089.1,0.290605307,32903654,dRNA-seq,,
+Lachnoclostridium phytofermentans ISDg,La.ph,Firmicutes,NC_010001.1,0.353485255,27982035,Capp-Switch seq,,
+Paenibacillus riograndensis SBR5,Pa.ri,Firmicutes,NZ_LN831776.1,0.50972869,29100491,dRNA-seq,,
+Bacillus subtilis 168,Ba.su,Firmicutes,NC_000964.3,0.435144081,20525796,dRNA-seq,,*
+Staphylococcus epidermidis ATCC 12228,St.ep,Firmicutes,NC_004461.1,0.320951762,27806702,dRNA-seq,,
+Staphylococcus aureus MW2,St.au,Firmicutes,NC_003923.1,0.328295861,27806702,dRNA-seq,,
+Listeria innocua,Li.in,Firmicutes,NC_003212.1,0.374389614,22617957,dRNA-seq,,
+Listeria monocytogenes,Li.mo,Firmicutes,NC_003210.1,0.379810279,22617957,dRNA-seq,,
+Streptococcus pyrogenes S119,St.py,Firmicutes,LR031521.1,0.385451011,30902048,dRNA-seq,,
+Streptococcus agalactiae NEM316,St.ag,Firmicutes,NC_004368.1,0.356274178,26024923,dRNA-seq,,
+Leptospira interrogans L495,Le.in,Spirochaetota,NZ_LT962963.1,0.349886118,28154810,dRNA-seq,,
+Bacteroides thetaiotaomicron VPI-5482,Ba.th,Bacteroidota,NC_004663.1,0.428371782,32678091,dRNA-seq,,*
+Chlamydia pneumoniae CWL029,Ch.pn,Chlamydiota,NC_000922.1,0.405776969,21989159,dRNA-seq,,
+Chlamydia trachomatis L2b,Ch.tr,Chlamydiota,NC_010280.1,0.413280211,19923228,dRNA-seq,,
+Campylobacter jejuni NCTC11168,Ca.je,Campylobacterota,NC_002163.1,0.305485717,23696746,dRNA-seq,,
+Helicobacter pylori 26695,He.py,Campylobacterota,NC_000915.1,0.388741625,26091613,dRNA-seq,,*
+Geobacter sulfurreducens PCA,Ge.su,Desulfobacterota,NC_002939.5,0.609374934,27488344,dRNA-seq,,
+Zymomonas mobilis ZM4,Zy.mo,Alphaproteobacteria,NZ_CP023715.1,0.463292135,32694125,dRNA-seq,,
+Novosphingobium aromaticivorans DSM 12444,No.ar,Alphaproteobacteria,NC_007794.1,0.651528084,34254822,dRNA-seq,,*
+Rhodobacter sphaeroides 2.4.1,Rh.sp,Alphaproteobacteria,NC_007493.2,0.690074153,34254822,dRNA-seq,,
+Caulobacter crescentus NA1000,Ca.cr,Alphaproteobacteria,NC_011916.1,0.671716471,25569173,dRNA-seq,,
+Agrobacterium tumefaciens C58,Ag.tu,Alphaproteobacteria,NC_003062.2,0.593752068,23950988,dRNA-seq,,
+Methylorubrum extorquens DM4,Me.ex,Alphaproteobacteria,NC_012988.1,0.680879368,35889020,dRNA-seq,,
+Bradyrhizobium japonicum USDA 110,Br.ja,Alphaproteobacteria,NC_004463.1,0.640593804,27107716,dRNA-seq,,
+Neisseria gonorrhoeae MS11,Ne.go,Betaproteobacteria,NC_022240.1,0.523626457,25143534,dRNA-seq,,
+Bordetella pertussis Tohama I,Bo.pe,Betaproteobacteria,NC_002929.2,0.677205827,29683387,dRNA-seq,,
+Burkholderia cenocepacia J2315,Bu.ce,Betaproteobacteria,AM747720.1,0.66681352,26462475,dRNA-seq,,
+Xanthomonas campestris B100,Xa.ca,Gammaproteobacteria,AM920689.1,0.650416164,26975844,dRNA-seq,,
+Acinetobacter baumannii ATCC 17978,Ac.ba,Gammaproteobacteria,CP000521.1,0.389408325,27806702,dRNA-seq,,
+Pseudomonas aeruginosa UCBPP-PA14,Ps.ae,Gammaproteobacteria,NC_008463.1,0.662923163,23028334,dRNA-seq,,
+Pseudomonas putida KT2440,Ps.pu,Gammaproteobacteria,NC_002947.3,0.615240907,27111755,dRNA-seq,*,
+Shewanella oneidensis MR-1,Sh.on,Gammaproteobacteria,NC_004347.2,0.459609566,24987095,tiling microarrays and 5_-end RNA sequencing,,
+Vibrio cholerae N16961,Vi.ch,Gammaproteobacteria,NC_002505.1,0.476953622,25646441,dRNA-Seq,,
+Klebsiella aerogenes KCTC 2190,Kl.ae,Gammaproteobacteria,NC_015663.1,0.548470944,27806702,dRNA-seq,,
+Salmonella typhimurium SL1344,Sa.ty,Gammaproteobacteria,FQ312003.1,0.52183328,22538806,dRNA-seq,,
+Shigella flexneri M90T,Sh.fl,Gammaproteobacteria,CP037923.1,0.509172204,32252626,dRNA-seq,*,
+Escherichia coli MG1655,Es.co,Gammaproteobacteria,NC_000913.2,0.507896997,25266388,dRNA-seq,,*
