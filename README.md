@@ -20,8 +20,6 @@ The required environment is specified in [**environment.yml**](environment.yml).
 conda env create -f environment.yml
 ```
 
-This command will create a conda environment as specified in the `environment.yml` file.
-
 ## Citation
 
 [Article Title](url)
