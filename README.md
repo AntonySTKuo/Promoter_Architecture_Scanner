@@ -2,7 +2,7 @@
 
 **Transcriptional Start Site (TSS) Scanner** is a tool designed to segment and align promoter elements upstream of transcriptional start sites (TSS) in bacteria by combining TSS-mapping data. Detailed algorithms and methodologies are provided in [the accompanying article](url).
 
-In [this article](url), we used various bacterial genomes listed in [**Genome_List.csv**](Genome_List.csv). Their GenBank files are located in the [**Genomes**](Genomes/) folder. The TSS-mapping data we collected is provided in the [**TSS_List.tsv**](TSS_List.tsv) table.
+In [this article](url), we used various bacterial genomes listed in [**Genome_List.csv**](Genome_List.csv). Their GenBank files are located in the [**genomes**](genomes/) folder. The TSS-mapping data we collected is provided in the [**TSS_List.tsv**](TSS_List.tsv) table.
 
 To reproduce the results presented in the article, run the following Python script:
 
@@ -10,7 +10,7 @@ To reproduce the results presented in the article, run the following Python scri
 python scripts/scanner_multiprocessing.py
 ```
 
-If you wish to use your own data, replace the [**TSS_List.tsv**](TSS_List.tsv) file with your data and place the corresponding genome GenBank files in the [**Genomes**](Genomes/) folder.
+If you wish to use your own data, replace the [**TSS_List.tsv**](TSS_List.tsv) file with your data and place the corresponding genome GenBank files in the [**genomes**](genomes/) folder.
 
 ## Environment
 
