@@ -22,7 +22,7 @@ def process_tss_group(args):
     species, df_tss = args
 
     g = df_tss["Genome_accession"].iloc[0]
-    file_g = "../genomes/" + g + ".gb"
+    file_g = current_directory + "/../genomes/" + g + ".gb"
     genome = Genome(next(SeqIO.parse(open(file_g, "r"), "genbank")))
     genome_copied = deepcopy(genome)  # for tss_shuffle
 
@@ -56,7 +56,7 @@ def process_tss_group(args):
     df_tss["ITR"] = df_tss.apply(getITR, axis="columns")
     
     df_tss.drop(columns=["Species", "Genome_accession", "DOWN"], inplace=True)
-    df_tss.to_csv(f'../tables/{species}.tsv', sep='\t', index=False)
+    df_tss.to_csv(current_directory + f"/../tables/{species}.tsv", sep='\t', index=False)
 
     ## TSS random
     df_tss_random = pd.DataFrame({
@@ -75,7 +75,7 @@ def process_tss_group(args):
     df_tss_random["ITR"] = df_tss_random.apply(getITR, axis="columns")
     
     df_tss_random.drop(columns=["DOWN"], inplace=True)
-    df_tss_random.to_csv(f'../tables/{species}_random.tsv', sep='\t', index=False)
+    df_tss_random.to_csv(current_directory + f"/../tables/{species}_random.tsv", sep='\t', index=False)
 
     ## TSS shuffle
     df_tss_shuffle = deepcopy(df_tss)
@@ -91,7 +91,7 @@ def process_tss_group(args):
     df_tss_shuffle["ITR"] = df_tss_shuffle.apply(getITR, axis="columns")
     
     df_tss_shuffle.drop(columns=["DOWN"], inplace=True)
-    df_tss_shuffle.to_csv(f'../tables/{species}_shuffle.tsv', sep='\t', index=False)
+    df_tss_shuffle.to_csv(current_directory + f"/../tables/{species}_shuffle.tsv", sep='\t', index=False)
 
 
 if __name__ == '__main__':
@@ -108,7 +108,9 @@ if __name__ == '__main__':
     # date = '20240411'
     # print(date)
 
-    TSS = pd.read_csv(f"../TSS_List.tsv", sep="\t")
+    global current_directory
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    TSS = pd.read_csv(current_directory + "/../TSS_List.tsv", sep="\t")
 
     ## Split TSS dataframe into chunks for parallel processing
     chunks = [(i, group) for i, group in TSS.groupby("Species")]
