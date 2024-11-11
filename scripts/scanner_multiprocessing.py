@@ -1,3 +1,4 @@
+import os
 from time import time
 from multiprocessing import Pool
 from scanner import *
