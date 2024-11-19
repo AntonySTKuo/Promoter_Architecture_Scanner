@@ -19,7 +19,7 @@ Staphylococcus epidermidis ATCC 12228,St.ep,Firmicutes,NC_004461.1,0.320951762,2
 Staphylococcus aureus MW2,St.au,Firmicutes,NC_003923.1,0.328295861,27806702,dRNA-seq,,
 Listeria innocua,Li.in,Firmicutes,NC_003212.1,0.374389614,22617957,dRNA-seq,,
 Listeria monocytogenes,Li.mo,Firmicutes,NC_003210.1,0.379810279,22617957,dRNA-seq,,
-Streptococcus pyrogenes S119,St.py,Firmicutes,LR031521.1,0.385451011,30902048,dRNA-seq,,
+Streptococcus pyogenes S119,St.py,Firmicutes,LR031521.1,0.385451011,30902048,dRNA-seq,,
 Streptococcus agalactiae NEM316,St.ag,Firmicutes,NC_004368.1,0.356274178,26024923,dRNA-seq,,
 Leptospira interrogans L495,Le.in,Spirochaetota,NZ_LT962963.1,0.349886118,28154810,dRNA-seq,,
 Bacteroides thetaiotaomicron VPI-5482,Ba.th,Bacteroidota,NC_004663.1,0.428371782,32678091,dRNA-seq,,*
