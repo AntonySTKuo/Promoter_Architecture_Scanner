@@ -1,6 +1,6 @@
-# TSS Scanner
+# Promoter Scanner
 
-**Transcriptional Start Site (TSS) Scanner** is a tool designed to segment and align promoter elements upstream of TSS in bacteria. Detailed algorithms and methodologies are provided in the accompanying article.
+**Promoter Scanner** is a tool designed to segment and align promoter elements upstream of TSS in bacteria. Detailed algorithms and methodologies are provided in the accompanying article.
 
 In this article, we used various bacterial genomes listed in [**Genome_List.csv**](Genome_List.csv). Their GenBank files are located in the [**genomes**](genomes/) folder. The TSS-mapping data we collected is provided in the [**TSS_List.tsv**](TSS_List.tsv) table. The segmentation results are in the [**tables**](tables/) folder.
 
