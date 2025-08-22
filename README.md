@@ -22,7 +22,7 @@ conda env create -f environment.yml
 
 ## Citation
 
-[Unraveling the start element and regulatory divergence of core promoters across the domain Bacteria]([url](https://www.biorxiv.org/content/10.1101/2025.01.23.634641v2))
+[Unraveling the start element and regulatory divergence of core promoters across the domain Bacteria](https://www.biorxiv.org/content/10.1101/2025.01.23.634641v2)
 
 ## License
 
